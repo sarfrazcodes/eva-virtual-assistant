@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# EVA Specific Data
+eva_browser_profile/
+EVA_Playwright_Profile/
+eva/memory/*.db
+eva/logs/*.log
+scratch/
+.system_generated/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
